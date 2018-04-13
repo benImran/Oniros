@@ -1,0 +1,105 @@
+footer {
+  .footer__item-news {
+    background-color: $grey-light;
+    width: 100%;
+    height: 185px;
+    margin-top: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .footer__item-news-form {
+      form {
+        margin-top: 15px;
+        box-shadow: 0 2px 2px rgba(0,0,0,.24);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .footer__item-title {
+        font-size: 20px;
+        line-height: 26px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 500;
+      }
+
+      .footer__item-title-input {
+        height: 48px;
+        width: 256px;
+        -webkit-appearance: none;
+        padding: 0 0 0 15px;
+        margin: 0;
+        border: none;
+      }
+
+      .footer__item-title-validate {
+        border: none;
+        background: $violet;
+        height: 48px;
+        width: 97px;
+        -webkit-appearance: none;
+        padding: 0;
+        margin: 0;
+        color: $white;
+        cursor: pointer;
+      }
+    }
+  }
+
+  .footer__sitemap {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    .footer__sitemap-item {
+
+      .footer__item-list {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 1px solid $grey-ll;
+        width: 826px;
+
+        li {
+          margin-top: 70px;
+          font-size: 20px;
+          margin-bottom: 30px;
+          color: $grey-zz;
+
+          &::after {
+            content: '';
+            display: inline-block;
+            height: 19px;
+            background: $grey-ll;
+            width: 1px;
+            margin-left: 45px;
+          }
+
+          &:last-child:after {
+            display: none;
+          }
+
+          &:nth-child(1) {
+            margin-left: 41px;
+          }
+
+          &:last-child {
+            margin-right: 41px;
+          }
+        }
+      }
+    }
+
+    .footer__copyright {
+      p {
+        margin-top: 30px;
+        margin-bottom: 60px;
+        font-family: 'Roboto', sans-serif;
+        font-size: 20px;
+        color: $grey-zz;
+      }
+    }
+  }
+}
