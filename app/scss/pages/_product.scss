@@ -17,12 +17,18 @@
   align-items: center;
   justify-items: center;
   grid-template-columns: repeat(2, 50%);
-  grid-template-rows: 400px;
+  grid-template-rows: minmax(400px, auto);
 }
 
 .product__infos {
-  max-width: 60%;
+  max-width: 70%;
+  padding: 3em 0;
 }
+
+.product__infos p {
+  margin-top: 1em;
+}
+
 
 .product__picture {
   width: 100%;
