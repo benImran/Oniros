@@ -3,13 +3,10 @@
 }
 
 .product__title {
-<<<<<<< 5badb5a77fc9feb30b156d14f2179373108dcbd4
   color: $black-light;
   text-align: center;
   margin-top: 1em;
-=======
   color: #222222;
->>>>>>> regarde
   font-size: 1.4em;
   margin-top: 1.5em;
   text-align: center;
@@ -17,9 +14,7 @@
 
 .product__item {
   display: grid;
-<<<<<<< 5badb5a77fc9feb30b156d14f2179373108dcbd4
-  grid-template-columns: repeat(2,50%)
-=======
+  grid-template-columns: repeat(2,50%);
   grid-template-columns: repeat(2, 50%);
 }
 
@@ -31,6 +26,4 @@
 
 .product__infos {
   padding: 4em;
->>>>>>> regarde
 }
-
