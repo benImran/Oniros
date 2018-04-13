@@ -1,0 +1,47 @@
+.dream {
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+  height: 200px;
+  margin-top: 2em;
+  overflow: hidden;
+}
+
+.dream__infos {
+  align-items: center;
+  background-color: #222;
+  color: $white;
+  display: flex;
+  justify-content: center;
+  transform: skew(-10deg) translate(-18px) scale(1.2);
+}
+
+.dream__text {
+  font-style: 1.2em;
+  max-width: 24em;
+  transform: skew(10deg);
+
+  &::after {
+    background: $white;
+    bottom: -30px;
+    content: "";
+    display: block;
+    height: 3px;
+    left: 0;
+    position: absolute;
+    width: 90px;
+  }
+}
+
+.dream__picture {
+  height: 90%;
+  margin-top: 12px;
+  object-fit: cover;
+  width: 100%;
+}
+
+@media screen and (max-width: 1050px) {
+  .dream__text {
+    font-size: .8em;
+    margin-left: 3em;
+  }
+}

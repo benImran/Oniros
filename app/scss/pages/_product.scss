@@ -1,5 +1,5 @@
 .product__wrapper {
-  margin-top: 1.5em;
+  margin-top: 5em;
 }
 
 .product__title {
@@ -14,8 +14,14 @@
 
 .product__item {
   display: grid;
-  grid-template-columns: repeat(2,50%);
+  align-items: center;
+  justify-items: center;
   grid-template-columns: repeat(2, 50%);
+  grid-template-rows: 400px;
+}
+
+.product__infos {
+  max-width: 60%;
 }
 
 .product__picture {
@@ -24,6 +30,6 @@
   object-fit: cover;
 }
 
-.product__infos {
-  padding: 4em;
+.product__description {
+  margin-top: 2em;
 }
