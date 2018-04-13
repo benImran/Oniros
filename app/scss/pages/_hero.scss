@@ -1,6 +1,11 @@
 .hero {
   align-items: center;
+<<<<<<< 5badb5a77fc9feb30b156d14f2179373108dcbd4
   background: $black;
+=======
+  background-image: url('/img/01.png');
+  background-size: cover;
+>>>>>>> regarde
   display: flex;
   min-height: 670px;
   padding-top: 60px;
@@ -21,15 +26,19 @@
   margin-top: 1em;
 }
 
+<<<<<<< 5badb5a77fc9feb30b156d14f2179373108dcbd4
 .hero__link {
   color: $white;
   margin-top: 1em;
 }
 
+=======
+>>>>>>> regarde
 .hero__button {
   background: $violet;
   color: $white;
   display: inline-block;
+  margin-top: 1em;
   padding: .5em 3em;
   text-transform: uppercase;
 }
