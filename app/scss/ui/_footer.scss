@@ -102,4 +102,16 @@ footer {
       }
     }
   }
+  
+  @media screen and (max-width: 1050px) {
+    .footer__item-list {
+      width: 710px !important;
+
+      li {
+        &::after {
+          margin-left: 25px !important;
+        }
+      }
+    }
+  }
 }
