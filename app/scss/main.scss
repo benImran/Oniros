@@ -1,3 +1,9 @@
-@import "_common";
-@import "_header";
-@import "_hero";
+//TOOLS
+@import "tools/fonts";
+@import "tools/mixins";
+@import "tools/reset";
+@import "tools/variables";
+
+//UI
+@import "ui/header";
+@import "ui/footer";
