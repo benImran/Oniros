@@ -155,3 +155,4 @@ fabric.properties
 ### Sass ###
 .sass-cache/
 *.css.map
+dist
