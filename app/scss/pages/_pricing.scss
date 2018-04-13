@@ -10,6 +10,10 @@
   display: flex;
   justify-content: center;
   margin-top: 1.5em;
+  @media screen and (max-width: 767px) {
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
 .pricing__range {
@@ -24,11 +28,20 @@
   min-height: 425px;
   padding-bottom: 1em;
   width: 350px;
+
+  @media screen and (max-width: 767px) {
+    width: 80%;
+    margin: 15px 0;
+  }
 }
 
 .pricing__range--middle {
   min-height: 425px;
   width: 375px;
+
+  @media screen and (max-width: 767px) {
+    width: 80%;
+  }
 }
 
 .pricing__therapy {

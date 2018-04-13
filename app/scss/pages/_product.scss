@@ -18,6 +18,9 @@
   justify-items: center;
   grid-template-columns: repeat(2, 50%);
   grid-template-rows: minmax(400px, auto);
+  @media screen and (max-width:999px) {
+    grid-template-columns: repeat(1, 100%);
+  }
 }
 
 .product__infos {

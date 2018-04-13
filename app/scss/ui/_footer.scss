@@ -9,6 +9,11 @@ footer {
     align-items: center;
 
     .footer__item-news-form {
+      width: auto;
+      @media screen and (max-width:767px) {
+        padding: 15px;
+      }
+
       form {
         margin-top: 15px;
         box-shadow: 0 2px 2px rgba(0,0,0,.24);
@@ -61,12 +66,23 @@ footer {
         align-items: center;
         border-bottom: 1px solid $grey-ll;
         width: 826px;
+        @media screen and (max-width:767px) {
+          width: 100% !important;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+        }
 
         li {
           margin-top: 70px;
           font-size: 20px;
           margin-bottom: 30px;
           color: $grey-zz;
+          @media screen and (max-width:767px) {
+            margin: 15px 0;
+            width: 100%;
+            text-align: center;
+          }
 
           &::after {
             content: '';
@@ -75,6 +91,9 @@ footer {
             background: $grey-ll;
             width: 1px;
             margin-left: 45px;
+            @media screen and (max-width:767px) {
+              display: none;
+            }
           }
 
           &:last-child:after {
@@ -83,10 +102,16 @@ footer {
 
           &:nth-child(1) {
             margin-left: 41px;
+            @media screen and (max-width:767px) {
+              margin-left: 0;
+            }
           }
 
           &:last-child {
             margin-right: 41px;
+            @media screen and (max-width:767px) {
+              margin-right: 0;
+            }
           }
         }
       }
