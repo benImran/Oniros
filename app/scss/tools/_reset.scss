@@ -79,25 +79,27 @@ time,
 mark,
 audio,
 video {
-  margin: 0;
-  padding: 0;
   border: 0;
+  margin: 0;
   outline: none;
+  padding: 0;
   vertical-align: baseline;
 }
 
 *,
 *::after,
 *::before {
-  outline: none;
   box-sizing: border-box;
+  outline: none;
 }
 
 html {
-  font-size: 62%;
+  font-family: 'Roboto', sans-serif;
+  font-size: 62.5%;
 }
 
 body {
+  font-family: inherit;
   font-size: 1.6rem;
 }
 

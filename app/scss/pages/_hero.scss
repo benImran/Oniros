@@ -1,29 +1,35 @@
 .hero {
+  align-items: center;
   background: #000;
+  display: flex;
   min-height: 670px;
   padding-top: 60px;
 }
 
 .hero__block {
+  margin-left: 50%;
   max-width: 24em;
 }
 
 .hero__title {
   color: #fff;
+  font-size: 2.6em;
 }
 
 .hero__text {
   color: #fff;
+  margin-top: 1em;
 }
 
 .hero__link {
   color: #fff;
+  margin-top: 1em;
 }
 
 .hero__button {
-  display: inline-block;
   background: #8f13fd;
   color: #fff;
+  display: inline-block;
   padding: .5em 3em;
   text-transform: uppercase;
 }

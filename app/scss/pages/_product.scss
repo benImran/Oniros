@@ -1,0 +1,12 @@
+.product__title {
+  color: #222222;
+  text-align: center;
+  margin-top: 1em;
+  font-size: 1.4em;
+}
+
+.product__item {
+display: grid;
+grid-template-columns: repeat(2,50%)
+
+}
