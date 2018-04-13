@@ -1,10 +1,12 @@
 .product__wrapper {
-  margin-top: 1.5em;
+  margin-top: 5em;
 }
 
 .product__title {
   color: $black-light;
   text-align: center;
+  margin-top: 1em;
+  color: #222222;
   font-size: 1.4em;
   margin-top: 1.5em;
   text-align: center;
@@ -12,8 +14,21 @@
 
 .product__item {
   display: grid;
+  align-items: center;
+  justify-items: center;
   grid-template-columns: repeat(2, 50%);
+  grid-template-rows: minmax(400px, auto);
 }
+
+.product__infos {
+  max-width: 70%;
+  padding: 3em 0;
+}
+
+.product__infos p {
+  margin-top: 1em;
+}
+
 
 .product__picture {
   width: 100%;
@@ -21,3 +36,6 @@
   object-fit: cover;
 }
 
+.product__description {
+  margin-top: 2em;
+}
